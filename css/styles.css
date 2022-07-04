@@ -1,0 +1,127 @@
+body{
+  background-color: #EEEEEE ;
+  text-align: center;
+  margin: 0;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+}
+
+.nav-item {
+
+  font-size: 1.2rem;
+  padding: 0 15px;
+}
+
+.logo-line {
+  background-color: #DA1212;
+  height: 5px;
+  padding-top: 0;
+}
+
+/* Home */
+#photos {
+  padding: 100px 0 100px;
+}
+
+.photo-caro-index {
+  border-radius: 50px;
+  text-align: center;
+  width: 800px;
+  height: 600px;
+}
+
+
+.photo-caro {
+  border-radius: 50px;
+  text-align: center;
+  object-fit: cover;
+  width: 700px;
+  height: 500px;
+}
+
+.bottom-container {
+  background-color: #292b2c;
+  color: #EEEEEE;
+  padding: 10px 100px 1px;
+
+}
+
+.work-label {
+  padding: 10px 40px 20px;
+}
+
+.work-sub {
+  display: inline-block;
+  padding: 50px 50px 50px;
+}
+
+.socialmedia-icons {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+}
+
+
+.endphrase {
+  font-style: italic;
+}
+
+/* Historico */
+
+#historico {
+  padding: 100px 100px;
+  display: inline-block;
+}
+
+.texto-his {
+  text-align: left;
+  vertical-align: middle;
+
+}
+
+.brasao {
+  text-align: center;
+}
+
+.container-cia {
+  height: 500px;
+
+}
+
+.cia-label {
+  text-align: center;
+  vertical-align: bottom;
+  padding-top: 0;
+  margin-top: 180px;
+}
+
+
+.photos-cia {
+  height: 500px;
+  width: 600px;
+}
+
+.texto-cia {
+  text-align: center;
+}
+
+.pel-cia {
+  padding: 20px 0 20px 30px;
+
+}
+
+hr {
+  border-color: #C8C6C6;
+  margin: auto;
+  width: 20%;
+}
+
+a{
+  text-decoration:none;
+  color: inherit;
+}
