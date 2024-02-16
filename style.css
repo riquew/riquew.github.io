@@ -1,0 +1,16 @@
+/* Utilitarios */
+@import "./css/utilitarios/componentes.css";
+@import "./css/utilitarios/cores.css";
+@import "./css/utilitarios/tipografia.css";
+
+/* GLOBAL */
+@import "./css/global/global.css";
+@import "./css/global/header.css";
+@import "./css/global/footer.css";
+
+/* HOME */
+@import "./css/home/banner.css";
+@import "./css/home/defesa.css";
+@import "./css/home/bem-estar.css";
+@import "./css/home/depoimento.css";
+@import "./css/home/contato.css";
