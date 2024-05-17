@@ -1,0 +1,168 @@
+.depoimento-bg {
+  background-color: var(--cor-p7);
+  padding-bottom: 60px;
+}
+
+.depoimento-bg h1 {
+  margin-bottom: 80px;
+  position: relative;
+}
+
+.depoimento-bg h1::before {
+  content: "";
+  width: 50px;
+  height: 5px;
+  position: absolute;
+  background: var(--cor-4);
+  bottom: 0px;
+  left: 20px;
+  position: absolute;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+  gap: 0 40px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  color: var(--cor-1);
+}
+
+.depoimento-conteudo button {
+  width: 50px;
+  height: 50px;
+}
+
+.depoimento-detalhe {
+  display: grid;
+  padding: 0 80px;
+  grid-template-columns: 6fr 3fr;
+  align-items: center;
+  gap: 40px;
+}
+
+.depoimento-detalhe blockquote p {
+  font-family: "Merriweather", serif;
+  position: relative;
+}
+
+.depoimento-detalhe blockquote p::before,
+.depoimento-detalhe blockquote p::after {
+  color: var(--cor-p9);
+  position: absolute;
+  font-size: 48px;
+}
+
+.depoimento-detalhe blockquote p::before {
+  content: "“";
+  top: -40px;
+  left: -30px;
+}
+
+.depoimento-detalhe blockquote p::after {
+  content: "”";
+  bottom: -60px;
+  right: 20px;
+}
+
+.depoimento-pessoa {
+  display: grid;
+  text-align: center;
+}
+
+.depoimento-pessoa img {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.google {
+  display: flex;
+  justify-content: center;
+}
+
+.google-review {
+  border-radius: 5px;
+  background-color: var(--cor-0);
+  width: 50%;
+  height: 140px;
+  box-shadow: 0 2px 0 1px rgba(0, 0, 0, 0.2);
+  padding: 16px 32px;
+  box-sizing: border-box;
+}
+
+.google-logo {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.google-logo p {
+  margin-left: 10px;
+}
+
+.google-nota {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.google-user {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.google-button {
+  border-radius: 5px;
+  background-color: #4285f4;
+  padding: 16px 32px;
+  color: var(--cor-0);
+}
+
+.google-stars {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 950px) {
+  .depoimento-bg h1::before {
+    display: none;
+  }
+  .depoimento-bg h1 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 600px) {
+  .depoimento-detalhe {
+    grid-template-columns: 1fr;
+  }
+
+  .depoimento-detalhe p {
+    font-size: 0.9rem;
+  }
+
+  .depoimento img {
+    max-width: 80%;
+    justify-self: center;
+  }
+
+  .depoimento-detalhe blockquote p::before {
+    content: "“";
+    top: -5px;
+  }
+}
+
+@media (max-width: 300px) {
+  .depoimento-conteudo {
+    gap: 0px;
+  }
+
+  .depoimento-pessoa img {
+    display: none;
+  }
+}
